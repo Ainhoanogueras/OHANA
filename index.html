@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!--Font Families from Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,700&family=Open+Sans:wght@400;500;600;700;800&family=Prompt:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
+        
+<!--Link Hoja de Estilos-->
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <title>OHANA</title>
+    </head>
+    <body>
+
+<!--CABECERA-->
+        <header>
+            <nav class="navbar">
+                <a class="enlacelogo" href="#inicio"><img class="logo" src="img/Img_Blanca.png" alt="arbol-negro"></a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">INICIÓ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#nosotros" class="nav-link">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#carta" class="nav-link">CARTA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#preguntas" class="nav-link">Q&A</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reservas" class="nav-link">RESERVAS</a>
+                    </li>
+                </ul>
+
+<!--MENU HAMBURGESA-->
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+  
+ <!--SECCIÓN 1 - INICIO-->
+        <section id="inicio">
+            <video id="video-fondo" autoplay loop muted><source src="img/mar2.mp4" type="video/mp4"></video>
+            <div class="logo">
+                <img src="img/Logo_Negro.png" alt="logonegro">
+            </div>
+        </section>
+
+<!--SECCIÓN 2 NOSOTROS-->
+        <section id="nosotros">
+            <div class="encabezado">
+                <h1>NOSOTROS</h1>
+                <p>Somos un restaurante con mucho hambre de conocer vuestro rollo</p>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item div1">
+                    <h2>Nuestra Historia</h2>
+                    <p>Ohana es una FAMILIA donde lo que queremos es hacer que todo el que venga pase un buen rato y se lo pase bien. Ya sea disfrutando de nuestra comida elaborada día a día o de nuestros cócteles hechos con mucho amor por nuestros maestros cocteleros y chefs.</p>
+                </div>
+                <div class="grid-item div2">
+                    <h2>Nuestro Equipo</h2>
+                    <p>El equipo del Ohana está formado por una familia apasionada por la cocina y comprometidos con sus fieles clientes. En este establecimiento se junta el mundo del surf con el mundo de la buena cocina a manos del chef Eneko Fernandez. Esta familia abrió este local en 2019 y después de pasar duros momentos siguieron a flote dandole a la ciudad de Bilbao un toque mas surfero. La familia OHANA esta formada por cocteleros y cocineros expertos que aman lo que hacen y dispuestos a ofrecerte la mejor experiencia gastronómica.</p>
+                </div>
+                <div class="grid-item div3">
+                    <img src="img/cocineros.jpg" alt="cocineros">
+                </div>
+            </div>
+        </section>
+
+ <!--SECCIÓN 3 - CARTA-->
+        <section id="carta">
+            <div class="encabezado">
+                <h1>Carta</h1>
+                <p>No hay nada mejor que disfrutar de una buena comida</p>
+            </div>
+            <div class="info">
+                <a href="menusemana.html">
+                    <img src="img/menusemana1.png" alt="Menu de día">
+                </a>
+                <a href="menufinde.html">
+                    <img src="img/menufinde1.png" alt="Menú de finde semana">
+                </a>
+                <a href="carta.html">
+                    <img src="img/1.png" alt="carta">
+                </a>
+            </div>
+        </section>
+
+ <!--SECCIÓN 4 - PREGUNTAS Y RESPUESTAS-->
+        <section id="preguntas">
+            <div class="encabezado">
+                <h1>Q&A</h1>
+                <p>¿Tienes alguna pregunta? Aquí te mostramos las preguntas más frecuentes</p>
+            </div>
+            <div class="preguntas">
+                <button class="pregunta">¿Puedo ir con mi perro al restaurante?</button>
+                <ul class="respuestas">
+                    <li class="respuesta">En Ohana están bienvenidos todos los peludos de cuatro patas, incluso encontrareis un pequeño bol para que ellos también se refresquen.</li>
+                </ul>
+                <button class="pregunta">¿Tienen opciones sin gluten?</button>
+                <ul class="respuestas">
+                    <li class="respuesta">Sí, ofrecemos opciones de sin gluten y tenemos una carta especifica con todos los ingredientes.</li>
+                </ul>
+                <button class="pregunta">¿Se puede pagar con tarjeta?</button>
+                <ul class="respuestas">
+                    <li class="respuesta">Sí, aceptamos tanto tarjeta como efectivo.</li>
+                </ul>
+                <button class="pregunta">¿Teneis servicio a domicilio?</button>
+                <ul class="respuestas">
+                    <li class="respuesta">No, no tenemos servicio a domicilio pero sí que ofrecemos nuestra deliciosa comida para llevar.</li>
+                </ul>
+                <button class="pregunta">¿Tienen opciones vegetarianas y veganas?</button>
+                <ul class="respuestas">
+                    <li class="respuesta">Sí, tenemos tanto opciones vegetarianas y veganas en los menus y en la carta normal. Cualquier duda podéis llamar y preguntar estaremos encantados de contestaros.</li>
+                </ul>
+                <button class="pregunta">¿El staff del restaurante esta "libre"?</button>
+                <ul class="respuestas">
+                    <li class="respuesta"> No, todos los trabajadores del Ohana están casados o en relación pero se aceptan piropos.</li>
+                </ul>
+            </div>
+        </section>
+       
+<!--SECCIÓN 5 RESERVAS-->
+        <section id="reservas">
+            <div class="encabezado">
+                <h1>Reservas</h1>
+                <p>Contáctanos sin problema mediante teléfono o redes sociales</p>
+            </div>       
+            <div class="mapaContainer">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.4378837717254!2d-2.9299614458913443!3d43.26320139689454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4f448687d0e1%3A0x90e2eb758fe2befa!2sOHANA%20BAR%20RESTAURANTE!5e0!3m2!1ses!2ses!4v1682322835564!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="textoMapa">
+                    <h1>No olvides visitarnos</h1>
+                    <h3>Acebal Idigoras #6, Bilbao, Spain</h3>
+                    <div class="boton">
+                        <a href="tel:+34946565828">LLAMAR</a>
+                    </div>
+                    <a href="https://www.instagram.com/ohana.bilbao/"><img src="img/insta.png" alt="instagram"></a>
+
+                </div>
+            </div>
+        </section>
+
+ <!-- PIE DE PÁGINA-->
+        <footer>
+            <div class="contenedor">
+                <div class="izq">
+                    <p class="copy">&copy; 2023 OHANA</p>
+                    <p class="diseñada">Diseñada por Ainhoa Nogueras Canteli</a></p>
+                </div>
+                <div class="centro">
+                    <img src="img/Img_Negra.png" alt="arbol-blanco">
+                </div>
+                <div class="derecha">
+                    <p>Síguenos</p>
+                    <a href="https://www.instagram.com/ohana.bilbao/"><img src="img/insta.png" alt="instagram"></a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/funciones.js"></script>
+    </body>
+</html>
